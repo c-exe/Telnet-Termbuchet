@@ -34,6 +34,7 @@ typedef struct stylesblock_struct
 #include "server.h"
 
 
+int converttruecolour(colourtype ctype, int r, int g, int b);
 void revertcurrenttonormal(displaynode *adn);
 //void setforcedcolourtypespec(int colourtype);
 //int runexternal(char *outputstr, int outputstr_size, char *program, char *arg1);
